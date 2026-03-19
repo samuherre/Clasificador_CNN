@@ -1,0 +1,24 @@
+# Entorno virtual
+venv/
+.env/
+env/
+
+# Modelo entrenado (opcional: elimina esta línea si quieres subir el modelo)
+cnn_digits_model.keras
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
